@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Consulta-Mais</string>
+    <string name="title_activity_segunda">SegundaActivity</string>
+    <string name="title_activity_esqueceu_senha">EsqueceuSenhaActivity</string>
+    <string name="title_activity_codigo">CodigoActivity</string>
+    <string name="title_activity_criar_senha">CriarSenhaActivity</string>
+</resources>

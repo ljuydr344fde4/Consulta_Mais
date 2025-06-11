@@ -1,5 +1,3 @@
-# Consulta-
-
 # Documentação do Projeto — Sistema de Agendamento de Consultas SUS
 
 🏥 Visão Geral

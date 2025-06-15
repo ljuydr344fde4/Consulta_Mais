@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <View
+        android:id="@+id/top_bar"
+        android:layout_width="0dp"
+        android:layout_height="139dp"
+        android:background="@drawable/banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </View>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="126dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="-1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/top_bar"
+        app:layout_constraintEnd_toStartOf="@+id/relativeLayout"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/top_bar"
+        app:layout_constraintTop_toTopOf="@+id/top_bar"
+        app:layout_constraintVertical_bias="0.9"
+        app:srcCompat="@drawable/medicos" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="@+id/top_bar"
+        app:layout_constraintTop_toTopOf="@+id/top_bar">
+
+        <TextView
+            android:id="@+id/text_nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MEUS"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_cartao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_nome"
+            android:layout_marginTop="2dp"
+            android:text="AGENDAMENTOS"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/top_bar1"
+        android:layout_width="0dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_bar">
+
+    </View>
+
+    <!-- Menu -->
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/top_bar1"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/text_nome2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ortopedista"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_cartao2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_nome2"
+            android:layout_marginTop="0dp"
+            android:text="Av, Paulista 726 •, Cjto 1109, São Paulo - SP, 01310-910"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_cartao3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_cartao2"
+            android:layout_marginTop="4dp"
+            android:text="27/11/2024 8 hrs"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_cartao4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_cartao3"
+            android:layout_marginTop="4dp"
+            android:text=" 8 hrs"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="124dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/top_bar1"
+        app:layout_constraintStart_toStartOf="@+id/top_bar1"
+        app:srcCompat="@drawable/_de47acdead6d37074499bba559810dab7202fd5" />
+
+
+    <View
+        android:id="@+id/top_bar2"
+        android:layout_width="0dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_bar1">
+
+    </View>
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/top_bar2"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/text_nome10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ortopedista"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_cartao20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_nome10"
+            android:layout_marginTop="0dp"
+            android:text="Av, Paulista 726 •, Cjto 1109, São Paulo - SP, 01310-910"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_cartao30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_cartao20"
+            android:layout_marginTop="4dp"
+            android:text="27/11/2024 8 hrs"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_cartao40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_cartao30"
+            android:layout_marginTop="4dp"
+            android:text=" 8 hrs"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="124dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/top_bar2"
+        app:layout_constraintStart_toStartOf="@+id/top_bar2"
+        app:srcCompat="@drawable/_de47acdead6d37074499bba559810dab7202fd5" />
+    <View
+        android:id="@+id/top_bar3"
+        android:layout_width="0dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_bar2">
+
+    </View>
+    <RelativeLayout
+        android:id="@+id/relativeLayout32"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/top_bar3"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/text_nome11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ortopedista"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_cartao21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_nome11"
+            android:layout_marginTop="0dp"
+            android:text="Av, Paulista 726 •, Cjto 1109, São Paulo - SP, 01310-910"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_cartao31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_cartao21"
+            android:layout_marginTop="4dp"
+            android:text="27/11/2024 8 hrs"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_cartao41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_cartao31"
+            android:layout_marginTop="4dp"
+            android:text=" 8 hrs"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="124dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/top_bar3"
+        app:layout_constraintStart_toStartOf="@+id/top_bar3"
+        app:srcCompat="@drawable/_de47acdead6d37074499bba559810dab7202fd5" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom"
+        android:background="@color/bem_vindo"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    app:srcCompat="@drawable/botao_home_escuro" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Inicial"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    app:srcCompat="@drawable/baseline_calendar_month_24" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Agendar"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    app:srcCompat="@drawable/apoio_suporte" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Ajuda"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    app:srcCompat="@drawable/do_utilizador" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Conta"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</androidx.constraintlayout.widget.ConstraintLayout>
